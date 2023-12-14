@@ -24,6 +24,7 @@ function createCalculator() {
 }
 
 const calculator = createCalculator();
-console.log(calculator.add(2, 3));
+console.log(calculator.subtract(6, 3));
+console.log(calculator.subtract(5, 10));
 
 export default createCalculator;
